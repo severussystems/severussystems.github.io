@@ -401,9 +401,10 @@ a, a:hover {
 }
 
 .section-title .title {
-  font-size: 32px;
-  line-height: 1.1;
-  position: relative;
+    font-size: 32px;
+    line-height: 1.1;
+    position: relative;
+    font-weight: 500;
 }
 .section-title h4 {
     color: #7f7f7f;
@@ -445,6 +446,10 @@ a, a:hover {
     font-size: 11px;
     font-weight: 400;
     margin: 0 8px;
+}
+.map-img img {
+    object-fit: cover;
+    width: 100%;
 }
 
 
@@ -1379,7 +1384,7 @@ header .header-topbar .social-links li a {
 
 header .header-topbar .contact-info li a:hover,
 header .header-topbar .social-links li a:hover {
-  color: #be1d24;
+  color: #147cce;
 }
 
 header .header-topbar .contact-info li {
@@ -1806,7 +1811,7 @@ header.header-three .header-nav::before {
   #hero-style
 --------------------------------------------------------------*/
 .hero-style {
-  height: 650px;
+  height: 550px;
   transition:all .4s ease;
 }
 
@@ -1879,7 +1884,7 @@ header.header-three .header-nav::before {
   position: relative;
   z-index: 1;
 }
-.slide-bg-image:after {
+/*.slide-bg-image:after {
     position: absolute;
     content: "";
     left: 0;
@@ -1890,7 +1895,7 @@ header.header-three .header-nav::before {
     height: 100%;
     background: rgb(11, 130, 196, 0.4);
     z-index: -1;
-}
+}*/
 
 @media (max-width: 767px) {
   .hero-style .slide-text p {
@@ -3650,6 +3655,10 @@ a:hover {
   padding-bottom: 160px;
   overflow: hidden;
 }
+#testimonialSliderTwo .testimonial-item .content h4{
+   color: #147cce;
+}
+
 
 @media (max-width: 1800px) {
   .testimonial-section {
@@ -6357,6 +6366,38 @@ a:hover {
     height: 252px;
 }
 
+.contact-section{
+    position: relative;
+    z-index: 1;
+}
+.contact-section-bg {
+    padding: 80px 0;
+    position: relative;
+    z-index: 1;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contact-section-bg:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(11, 130, 196, 0.5);
+    z-index: -1;
+}
+.contact-section-bg h2, .contact-section-bg p{
+    color: #fff;
+}
+.contact-section-bg label {
+    color: #fff;
+}
+
+
 /*.contact-section.boxed-style-with-map .contact-inner.mt-negative {
   margin-top: -130px;
 }*/
@@ -6535,7 +6576,7 @@ a:hover {
     margin-right: 10px;
 }
 .contact-section{
-    padding: 15px 0;
+    padding:25px 0;
     background: #16407a;
 }
 
@@ -8693,7 +8734,7 @@ header .header-nav .nav-container .menu-items .item-dropdown:hover ul.dropdown-m
     display: inline-block;
 }
 .mean-menu ul li a {
-    padding: 45px 20px;
+    padding: 45px 30px;
     border-radius: 0px;
 }
 .mean-menu ul li a:hover{
