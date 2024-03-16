@@ -1728,10 +1728,14 @@ header.header-three .header-nav::before {
 }
 
 .hero-slider .swiper-button-prev {
-  left: 25px;
-  transform:translateX(50px);
+    left: 25px;
+    /* transform: translateX(50px) !important; */
+    transform: translateY(90px) !important;
 }
-
+.hero-slider .swiper-button-next {
+    right: 25px;
+    transform: translateY(90px) !important;
+}
 .hero-slider .swiper-button-prev:before {
   font-family: "Font Awesome 5 Free";
   content: "\f060";
@@ -1811,7 +1815,7 @@ header.header-three .header-nav::before {
   #hero-style
 --------------------------------------------------------------*/
 .hero-style {
-  height: 550px;
+  height: 450px;
   transition:all .4s ease;
 }
 
@@ -8864,6 +8868,20 @@ header .header-nav .nav-container .menu-items .item-dropdown:hover ul.dropdown-m
 .section-title-white p{
     color: #fff;
 }
+a.btn-tell-story {
+    background: #147cce;
+    color: #fff;
+    font-family: 'Marcellus', serif;
+    font-weight: 700;
+    padding: 15px 50px;
+    border-radius: 0px;
+    text-transform: capitalize;
+}
+a.btn-tell-story:hover{
+    background: #06599b;
+    color: #fff;
+}
+
 
 /*.green-bg{
     background: #def0ff;
