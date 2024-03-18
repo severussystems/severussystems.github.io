@@ -1927,6 +1927,24 @@ header.header-three .header-nav::before {
   margin: 0 0 40px;
   transition:all .4s ease;
 }
+
+.quote, .quote-source {
+    text-shadow:
+        1px 1px 1px rgba(0, 0, 0, 0.5),
+        -1px 1px 1px rgba(0, 0, 0, 0.5),
+        -1px -1px 1px rgba(0, 0, 0, 0.5),
+        1px -1px 1px rgba(0, 0, 0, 0.5),
+
+        1px 0px 1px rgba(0, 0, 0, 0.5),
+        -1px 0px 1px rgba(0, 0, 0, 0.5),
+        0px -1px 1px rgba(0, 0, 0, 0.5),
+        0px  1px 1px rgba(0, 0, 0, 0.5)        ;
+}
+
+.quote-source {
+    text-align: right;
+}
+
 .slide-bg-image{
   position: relative;
   z-index: 1;
