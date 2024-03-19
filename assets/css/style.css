@@ -3720,10 +3720,12 @@ a:hover {
   padding-bottom: 160px;
   overflow: hidden;
 }
-#testimonialSliderTwo .testimonial-item .content h4{
+#testimonialSliderTwo .testimonial-item .content h3, #testimonialSliderTwo .testimonial-item .content h4 {
    color: #147cce;
 }
-
+#testimonialSliderTwo .testimonial-item .content h3 {
+    font-size: 22px;
+}
 
 @media (max-width: 1800px) {
   .testimonial-section {
