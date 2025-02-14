@@ -8884,10 +8884,10 @@ header .header-nav .nav-container .menu-items .item-dropdown:hover ul.dropdown-m
 }
 
 .team-col {
-    padding: 15px;
+    padding: 30px;
     border: 1px #ddd solid;
     min-height: 720px;
-    max-height: 720px;
+    max-height: 750px;
 }
 .team-col p {
     font-size: 15px;
@@ -8984,4 +8984,14 @@ a.btn-tell-story:hover{
 }
 
 
+}
+.cneter-box {
+    width:100%;
+    justify-content: center !important;
+    justify-items: center;
+    padding-top: 30px;
+}
+.icon-box {
+    padding: 50px;
+    background: #fff;
 }
